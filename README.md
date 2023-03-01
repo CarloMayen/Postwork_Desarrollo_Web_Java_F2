@@ -1,4 +1,4 @@
-# Postwork de curso de Desarrollo Web Java Fase 2
+# Postwork de curso del Desarrollo Web Java Fase 2
 
 <p style = 'font-size:17px'>Repositorio para la entrega de evidencias del curso.</p>
 
