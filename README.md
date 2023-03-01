@@ -8,7 +8,7 @@
 |:--------:|:--------:|
 |Itzel Arely Osuna Banda|itzelarit16@gmail.com|
 |Edgar García Aguilar|edgarciaguilar@gmail.com|
-|Rafael|raf_neta@hotmail.com|
-|Ángel|angel_apineda@hotmail.com|
+|Rafae Martinez Martinez|raf_neta@hotmail.com|
+|Luis Ángel Ángeles Pineda|angel_apineda@hotmail.com|
 |Roberto Carlo Mayén Vázquez|rmayenv@toluca.tecnm.mx|
 ||b.trejo@unav.edu.mx|
