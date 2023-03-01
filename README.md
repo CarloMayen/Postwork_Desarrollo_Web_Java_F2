@@ -2,6 +2,9 @@
 
 <p style = 'font-size:17px'>Repositorio para la entrega de evidencias del curso.</p>
 
+- **Postwork Sesión 1**
+  - Practica de convertir un archivo de markdown a un archivo HTML con Gradle.
+
 ## Integrantes del equipo
 ---
 |Nombre    |Email     |
