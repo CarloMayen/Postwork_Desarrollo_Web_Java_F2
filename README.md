@@ -6,15 +6,18 @@
   - Practica de convertir un archivo de markdown a un archivo HTML con Gradle.
 
 - **Postwork Sesión 2**
-  - Practica de uso del patron de diseño decorador (estructural). 
+  - Practica de uso del patrón de diseño decorador (estructural).
+
+- **Postwork Sesión 3**
+  - Practica de Pruebas, DynamicTest con anotación @TestFactory, haciendo pruebas de 1000 iteraciones a proyecto de Calculadora.
 
 ## Integrantes del equipo
 ---
-|Nombre    |Email     |
-|:--------:|:--------:|
-|Itzel Arely Osuna Banda|itzelarit16@gmail.com|
-|Edgar García Aguilar|edgarciaguilar@gmail.com|
-|Rafae Martinez Martinez|raf_neta@hotmail.com|
-|Luis Ángel Ángeles Pineda|angel_apineda@hotmail.com|
-|Roberto Carlo Mayén Vázquez|rmayenv@toluca.tecnm.mx|
-||b.trejo@unav.edu.mx|
+|Nombre    |Email     |Slack Nickname|
+|:--------:|:--------:|:--------:|
+|Itzel Arely Osuna Banda|itzelarit16@gmail.com|@Itzel Arely Osuna Banda|
+|Edgar García Aguilar|edgarciaguilar@gmail.com|@Edgar García Aguilar|
+|Rafae Martinez Martinez|raf_neta@hotmail.com|@Rafael|
+|Luis Ángel Ángeles Pineda|angel_apineda@hotmail.com|@Ángel|
+|Roberto Carlo Mayén Vázquez|rmayenv@toluca.tecnm.mx|@Carlo Mayén|
+|Beyda Mariana Trejo Roman|b.trejo@unav.edu.mx|@Beyda|
