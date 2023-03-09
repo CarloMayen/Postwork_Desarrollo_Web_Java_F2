@@ -49,10 +49,10 @@ class CalculadoraTest {
         }));
     }
 
-    @TestFactory
-    @DisplayName("1000 pruebas de divisiones")
-    Stream<DynamicTest> dynamicTestsForDivicion() {
-    }
+    // @TestFactory
+    // @DisplayName("1000 pruebas de divisiones")
+    // Stream<DynamicTest> dynamicTestsForDivicion() {
+    // }
 
     @TestFactory
     @DisplayName("1000 pruebas de divisiones entre 0")
