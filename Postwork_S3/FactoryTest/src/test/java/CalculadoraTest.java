@@ -17,15 +17,15 @@ class CalculadoraTest {
         // Crea una lista con numero de 0 a 999 (1000 elementos)
         List<Integer> casesInput = IntStream.range(0, 1000).boxed().collect(Collectors.toList());
         // Crea una lista con numero de 0 a 999 (1000 elementos) y multiplica por dos(n -> n * 2), cada elemento de la lista
-        List<Integer> casesResponses = IntStream.range(0, 1000).map(n -> n * 2).boxed().collect(Collectors.toList());
+        List<Integer> casesResponses = IntStream.range(0, 1000).map(n -> n * 5).boxed().collect(Collectors.toList());
 
         // Recorre nuestra lista de números sin ninguna operación, y hace la prueba dinámica con la variable numero que es el elemento actual del recorrido de la lista.
         // DynamicTest.dynamicTest(), envía dos parámetros:
         // DisplayName = "Multiplica: " + numero + " * 2"
         // función Lambda que llama al método a probar, enviándola como 1er parámetro en el método assertEquals(), y e el segundo parámetro de el numero de nuestra segunda lista
         // que contiene los resultados.
-        return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Multiplica: " + numero + " * 2", () -> {
-            assertEquals(calculadora.multiplica(numero, 2), casesResponses.get(numero));
+        return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Multiplica: " + numero + " * 5", () -> {
+            assertEquals(calculadora.multiplica(numero, 5), casesResponses.get(numero));
         }));
     }
 
@@ -51,7 +51,7 @@ class CalculadoraTest {
 
         // Respuesta general para recibir el mensaje de la excepción.
         String exceptionResponse = "No es posible dividir un valor entre 0";
-        return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Multiplica: " + numero + " * 0", () -> {
+        return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Divide: " + numero + " / 0", () -> {
             assertEquals(assertThrows(IllegalArgumentException.class, () -> calculadora.divide(numero, 0)).getMessage(),
                     exceptionResponse);
         }));
