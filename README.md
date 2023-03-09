@@ -5,6 +5,9 @@
 - **Postwork Sesión 1**
   - Practica de convertir un archivo de markdown a un archivo HTML con Gradle.
 
+- **Postwork Sesión 2**
+  - Practica de uso del patron de diseño decorador (estructural). 
+
 ## Integrantes del equipo
 ---
 |Nombre    |Email     |
