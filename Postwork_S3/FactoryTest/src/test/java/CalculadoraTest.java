@@ -29,20 +29,20 @@ class CalculadoraTest {
         }));
     }
 
-    @TestFactory
-    @DisplayName("1000 pruebas de sumas")
-    Stream<DynamicTest> dynamicTestsForSuma() {
-    }
+    // @TestFactory
+    // @DisplayName("1000 pruebas de sumas")
+    // Stream<DynamicTest> dynamicTestsForSuma() {
+    // }
 
-    @TestFactory
-    @DisplayName("1000 pruebas de restas")
-    Stream<DynamicTest> dynamicTestsForResta() {
-    }
+    // @TestFactory
+    // @DisplayName("1000 pruebas de restas")
+    // Stream<DynamicTest> dynamicTestsForResta() {
+    // }
 
-    @TestFactory
-    @DisplayName("1000 pruebas de divisiones")
-    Stream<DynamicTest> dynamicTestsForDivicion() {
-    }
+    // @TestFactory
+    // @DisplayName("1000 pruebas de divisiones")
+    // Stream<DynamicTest> dynamicTestsForDivicion() {
+    // }
 
     @TestFactory
     @DisplayName("1000 pruebas de divisiones entre 0")
