@@ -32,17 +32,27 @@ class CalculadoraTest {
     @TestFactory
     @DisplayName("1000 pruebas de sumas")
     Stream<DynamicTest> dynamicTestsForSuma() {
+        List<Integer> casesInput = IntStream.range(0, 1000).boxed().collect(Collectors.toList());
+        List<Integer> casesResponses = IntStream.range(0, 1000).map(n -> n + 5).boxed().collect(Collectors.toList());
+        return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Suma: " + numero + " + 5", () -> {
+            assertEquals(calculadora.suma(numero, 5), casesResponses.get(numero));
+        }));
     }
 
     @TestFactory
     @DisplayName("1000 pruebas de restas")
     Stream<DynamicTest> dynamicTestsForResta() {
+        List<Integer> casesInput = IntStream.range(0, 1000).boxed().collect(Collectors.toList());
+        List<Integer> casesResponses = IntStream.range(0, 1000).map(n -> n - 5).boxed().collect(Collectors.toList());
+        return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Resta: " + numero + " - 5", () -> {
+            assertEquals(calculadora.resta(numero, 5), casesResponses.get(numero));
+        }));
     }
 
-    @TestFactory
-    @DisplayName("1000 pruebas de divisiones")
-    Stream<DynamicTest> dynamicTestsForDivicion() {
-    }
+    // @TestFactory
+    // @DisplayName("1000 pruebas de divisiones")
+    // Stream<DynamicTest> dynamicTestsForDivicion() {
+    // }
 
     @TestFactory
     @DisplayName("1000 pruebas de divisiones entre 0")
