@@ -9,7 +9,11 @@
   - Practica de uso del patrón de diseño decorador (estructural).
 
 - **Postwork Sesión 3**
-  - Practica de Pruebas, DynamicTest con anotación @TestFactory, haciendo pruebas de 1000 iteraciones a proyecto de Calculadora.
+  - Practica de Pruebas, DynamicTest con anotación @TestFactory, haciendo pruebas de 1000 iteraciones a proyecto de Calculadora.}
+
+  - **Postwork Sesión 4**
+
+  - **Postwork Sesión 5**
 
 ## Integrantes del equipo
 ---
