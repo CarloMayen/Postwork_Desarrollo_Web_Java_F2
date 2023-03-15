@@ -52,6 +52,11 @@ class CalculadoraTest {
     // @TestFactory
     // @DisplayName("1000 pruebas de divisiones")
     // Stream<DynamicTest> dynamicTestsForDivicion() {
+    //     List<Integer> casesInput = IntStream.range(1, 1001).boxed().collect(Collectors.toList());
+    //     List<Integer> casesResponses = IntStream.range(1, 1001).map(n -> n / 1).boxed().collect(Collectors.toList());
+    //     return casesInput.stream().map(numero -> DynamicTest.dynamicTest("Divide: " + numero + " / 1", () -> {
+    //         assertEquals(calculadora.divide(numero, 5), casesResponses.get(numero));
+    //     }));
     // }
 
     @TestFactory
