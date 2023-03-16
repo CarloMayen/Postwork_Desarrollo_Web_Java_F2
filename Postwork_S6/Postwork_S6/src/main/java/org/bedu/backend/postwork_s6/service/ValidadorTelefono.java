@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class ValidadorTelefono {
     private static final Pattern PATTERN_TELEFONO = Pattern.compile("^(\\d{2,4}[- .]?){2}\\d{4}$");
 
-    public boolean isValido(String telefono) {
+    public boolean isValido(String telefono){
         return PATTERN_TELEFONO.matcher(telefono).matches();
     }
 
