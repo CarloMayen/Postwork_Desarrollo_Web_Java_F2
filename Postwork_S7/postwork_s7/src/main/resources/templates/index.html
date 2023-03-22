@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Agenda</title>
+</head>
+<body>
+
+<div>
+    <form th:action="@{/registro}" th:object="${usuario}" method="post">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text" th:field="*{nombre}">
+        </div>
+        <div>
+            <label for="telefono">Telefono: </label>
+            <input id="telefono" type="text" th:field="*{telefono}">
+        </div>
+
+        <input type="submit" th:value="Guardar"/>
+    </form>
+</div>
+
+<div>
+    <table class="default">
+        <tr th:each="tmpPersonas: ${personas}">
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+    </table>
+</div>
+xxxxx
+</body>
+</html>
