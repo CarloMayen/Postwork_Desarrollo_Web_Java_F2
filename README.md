@@ -9,13 +9,25 @@
   - Practica de uso del patrón de diseño decorador (estructural).
 
 - **Postwork Sesión 3**
-  - Practica de Pruebas, DynamicTest con anotación @TestFactory, haciendo pruebas de 1000 iteraciones a proyecto de Calculadora.}
+  - Practica de Pruebas, DynamicTest con anotación @TestFactory, haciendo pruebas de 1000 iteraciones a proyecto de Calculadora.
 
-  - **Postwork Sesión 4**
+- **Postwork Sesión 4**
+  - Crear proyecto spring initializr y implementar la interface CommandLineRunner.
 
-  - **Postwork Sesión 5**
+- **Postwork Sesión 5**
+  - Modificar el proyecto de la sesión 4, para poder implementar un validador del número telefónico, (IoC).
+
+- **Postwork Sesión 6**
+  - Modificar el proyecto de la sesión 5, para poder implementar el modelo vista controlador, y cambiar la CommandLineRunner, para crear API Rest.
+
+- **Postwork Sesión 7**
+  - Modificar el proyecto de la sesión 6, implementando Thymeleaf para poder agregar archivos html, y agregar una vista dinámica a el proyecto.
+
+- **Postwork Sesión 8**
+  - Modificar el proyecto de la sesión 7, implementando JPA usando hibernate para pasar los objetos a tablas de MYSQL y usarlo como medio de almacenamiento.
 
 ## Integrantes del equipo
+
 ---
 |Nombre    |Email     |Slack Nickname|
 |:--------:|:--------:|:--------:|
